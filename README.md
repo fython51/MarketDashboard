@@ -58,6 +58,7 @@ _See the script for the sources of each._
 - [X] Fix outputs
 - [X] Add yield curves.
 - [X] Add example outputs.
+- [ ] Add requirements.txt
 - [ ] Add further commodities.
 - [ ] Add further macro indicators.
 - [ ] Make this baby into its own webpage.
