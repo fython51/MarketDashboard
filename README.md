@@ -15,4 +15,4 @@ Run the whole thing, the last cell concatenates a bunch of plots and subplots th
 <br>
 
 ## Example of the output (as of 2023-03-10 11.45)
-![Example output](https://imgur.com/a/DaZ2whO.gif "Example output")
+![Example output](https://imgur.com/a/DaZ2whO "Example output")
