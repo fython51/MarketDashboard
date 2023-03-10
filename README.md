@@ -15,4 +15,8 @@ Run the whole thing, the last cell concatenates a bunch of plots and subplots th
 <br>
 
 ## Example of the output (as of 2023-03-10 11.45)
-![Example output](https://imgur.com/a/DaZ2whO "Example output")
+![Example output 1](https://github.com/fython51/MarketDashboard/blob/main/Outputs/explot1.png "Example output 1")
+![Example output 2](https://github.com/fython51/MarketDashboard/blob/main/Outputs/explot2.png "Example output 2")
+![Example output 3](https://github.com/fython51/MarketDashboard/blob/main/Outputs/explot3.png "Example output 3")
+![Example output 4](https://github.com/fython51/MarketDashboard/blob/main/Outputs/explot4.png "Example output 4")
+![Example output 5](https://github.com/fython51/MarketDashboard/blob/main/Outputs/explot5.png "Example output 5")
