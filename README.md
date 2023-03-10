@@ -1,6 +1,6 @@
 # Market Dashboard
 ## What is it?
-A composite TSM plot of the most relevant government bonds, equity indexes, and commodity futures.
+A composite plot of the trailing-six-month performance of the most relevant government bonds, equity indexes, and commodities.
 
 <br>
 
