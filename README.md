@@ -61,5 +61,5 @@ _See the script for the sources of each._
 - [ ] Add requirements.txt
 - [ ] Add further commodities.
 - [ ] Add further macro indicators.
-- [ ] Make this baby into its own webpage.
+- [ ] Make this script into its own webpage.
 - [ ] **Maybe:** add an _Asset Inputs_ section to add/remove assets.
