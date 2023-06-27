@@ -34,9 +34,21 @@ Run the whole thing, the last cell concatenates a bunch of plots and subplots th
 | Equity       | Nasdaq (U.S.)                     |
 | Equity       | Nikkei (Japan)                    |
 | Commodities  | Month-ahead future: Gold          |
+| Commodities  | Month-ahead future: Platinum      |
 | Commodities  | Month-ahead future: Brent crude   |
 | Commodities  | Month-ahead future: Natural gas   |
 | Commodities  | Month-ahead future: Wheat         |
+| Commodities  | Month-ahead future: Corn          |
+| FX           | EUR/USD                           |
+| FX           | EUR/CHF                           |
+| FX           | EUR/JPY                           |
+| FX           | EUR/GBP                           |
+| FX           | GBP/USD                           |
+| FX           | USD/JPY                           |
+| FX           | USD/CHF                           |
+| FX           | USD/AUD                           |
+| FX           | USD/CAD                           |
+
 
 <br>
 
@@ -58,8 +70,8 @@ _See the script for the sources of each._
 - [X] Fix outputs
 - [X] Add yield curves.
 - [X] Add example outputs.
-- [ ] Add requirements.txt
-- [ ] Add further commodities.
+- [X] Add further commodities.
+- [X] Add FX.
 - [ ] Add further macro indicators.
 - [ ] Make this script into its own webpage.
 - [ ] **Maybe:** add an _Asset Inputs_ section to add/remove assets.
