@@ -52,6 +52,8 @@ Run the whole thing, the last cell concatenates a bunch of plots and subplots th
 <br>
 
 ## Example of the output (as of 2023-03-10 11.45)
+Keep in mind that the actual charts are interactive, while these are simply screenshots.
+
 ![Example output 1](https://github.com/fython51/MarketDashboard/blob/main/Outputs/Plot_1.png "Example output 1")
 ![Example output 2](https://github.com/fython51/MarketDashboard/blob/main/Outputs/Plot_2.png "Example output 2")
 ![Example output 3](https://github.com/fython51/MarketDashboard/blob/main/Outputs/Plot_3.png "Example output 3")
