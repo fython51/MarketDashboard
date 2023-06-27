@@ -1,11 +1,11 @@
 # Market Dashboard
 ## What is it?
-A composite plot of the trailing-six-month performance of the most relevant government bonds, equity indexes, and commodities.
+A composite plot of the trailing-six-month performance of the most relevant government bonds, equity indexes, commodities, and currency pairs.
 
 <br>
 
 ## Why would anybody need this?
-To get a general overview of market performance over the last six months. 
+To get a general overview of the performance of various markets over the last six months. 
 
 <br>
 
@@ -16,52 +16,48 @@ Run the whole thing, the last cell concatenates a bunch of plots and subplots th
 
 ## Which assets are covered?
 
-| Class        | Asset                             |
-| ------------ | --------------------------------- |
-| Fixed Income | Gov't bonds – United States       |
-| Fixed Income | Gov't bonds – China               |
-| Fixed Income | Gov't bonds – United Kingdom      |
-| Fixed Income | Gov't bonds – Japan               |
-| Fixed Income | Gov't bonds – Germany             |
-| Fixed Income | Gov't bonds – Italy               |
-| Curve        | Italy - Germany gov't bond spread |
-| Equity       | MIB (Italy)                       |
-| Equity       | China large-cap ETF               |
-| Equity       | FTSE100 (U.K.)                    |
-| Equity       | DE40 (Germany)                    |
-| Equity       | S&P500 (U.S.)                     |
-| Equity       | Hang Seng (H.K.)                  |
-| Equity       | Nasdaq (U.S.)                     |
-| Equity       | Nikkei (Japan)                    |
-| Commodities  | Month-ahead future: Gold          |
-| Commodities  | Month-ahead future: Platinum      |
-| Commodities  | Month-ahead future: Brent crude   |
-| Commodities  | Month-ahead future: Natural gas   |
-| Commodities  | Month-ahead future: Wheat         |
-| Commodities  | Month-ahead future: Corn          |
-| FX           | EUR/USD                           |
-| FX           | EUR/CHF                           |
-| FX           | EUR/JPY                           |
-| FX           | EUR/GBP                           |
-| FX           | GBP/USD                           |
-| FX           | USD/JPY                           |
-| FX           | USD/CHF                           |
-| FX           | USD/AUD                           |
-| FX           | USD/CAD                           |
-
-
-<br>
-
-_See the script for the sources of each._ 
+| Class        | Asset                             | Source                   |
+| ------------ | --------------------------------- | ------------------------ |
+| Fixed Income | Gov't bonds – United States       | worldgovernmentbonds.com |
+| Fixed Income | Gov't bonds – China               | worldgovernmentbonds.com |
+| Fixed Income | Gov't bonds – United Kingdom      | worldgovernmentbonds.com |
+| Fixed Income | Gov't bonds – Japan               | worldgovernmentbonds.com |
+| Fixed Income | Gov't bonds – Germany             | worldgovernmentbonds.com |
+| Fixed Income | Gov't bonds – Italy               | worldgovernmentbonds.com |
+| Curve        | Italy - Germany gov't bond spread | Internal calculation     |
+| Equity       | MIB (Italy)                       | Yahoo Finance            |
+| Equity       | China large-cap ETF               | Yahoo Finance            |
+| Equity       | FTSE100 (U.K.)                    | Yahoo Finance            |
+| Equity       | DE40 (Germany)                    | Yahoo Finance            |
+| Equity       | S&P500 (U.S.)                     | Yahoo Finance            |
+| Equity       | Hang Seng (H.K.)                  | Yahoo Finance            |
+| Equity       | Nasdaq (U.S.)                     | Yahoo Finance            |
+| Equity       | Nikkei (Japan)                    | Yahoo Finance            |
+| Commodities  | Month-ahead future: Gold          | Yahoo Finance            |
+| Commodities  | Month-ahead future: Platinum      | Yahoo Finance            |
+| Commodities  | Month-ahead future: Brent crude   | Yahoo Finance            |
+| Commodities  | Month-ahead future: Natural gas   | Yahoo Finance            |
+| Commodities  | Month-ahead future: Wheat         | Yahoo Finance            |
+| Commodities  | Month-ahead future: Corn          | Yahoo Finance            |
+| FX           | EUR/USD                           | Yahoo Finance            |
+| FX           | EUR/CHF                           | Yahoo Finance            |
+| FX           | EUR/JPY                           | Yahoo Finance            |
+| FX           | EUR/GBP                           | Yahoo Finance            |
+| FX           | GBP/USD                           | Yahoo Finance            |
+| FX           | USD/JPY                           | Yahoo Finance            |
+| FX           | USD/CHF                           | Yahoo Finance            |
+| FX           | USD/AUD                           | Yahoo Finance            |
+| FX           | USD/CAD                           | Yahoo Finance            |
 
 <br>
 
 ## Example of the output (as of 2023-03-10 11.45)
-![Example output 1](https://github.com/fython51/MarketDashboard/blob/main/Outputs/explot1.png "Example output 1")
-![Example output 2](https://github.com/fython51/MarketDashboard/blob/main/Outputs/explot2.png "Example output 2")
-![Example output 3](https://github.com/fython51/MarketDashboard/blob/main/Outputs/explot3.png "Example output 3")
-![Example output 4](https://github.com/fython51/MarketDashboard/blob/main/Outputs/explot4.png "Example output 4")
-![Example output 5](https://github.com/fython51/MarketDashboard/blob/main/Outputs/explot5.png "Example output 5")
+![Example output 1](https://github.com/fython51/MarketDashboard/blob/main/Outputs/Plot_1.png "Example output 1")
+![Example output 2](https://github.com/fython51/MarketDashboard/blob/main/Outputs/Plot_2.png "Example output 2")
+![Example output 3](https://github.com/fython51/MarketDashboard/blob/main/Outputs/Plot_3.png "Example output 3")
+![Example output 4](https://github.com/fython51/MarketDashboard/blob/main/Outputs/Plot_4.png "Example output 4")
+![Example output 5](https://github.com/fython51/MarketDashboard/blob/main/Outputs/Plot_5.png "Example output 5")
+![Example output 6](https://github.com/fython51/MarketDashboard/blob/main/Outputs/Plot_6.png "Example output 6")
 
 
 <br>
@@ -72,6 +68,8 @@ _See the script for the sources of each._
 - [X] Add example outputs.
 - [X] Add further commodities.
 - [X] Add FX.
+- [X] Convert to dark mode, so it doesn't feel like you're staring at a lightbulb.
+- [X] Format code to the correct python standards.
 - [ ] Add further macro indicators.
 - [ ] Make this script into its own webpage.
 - [ ] **Maybe:** add an _Asset Inputs_ section to add/remove assets.
